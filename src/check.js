@@ -1,1 +1,17 @@
 import { hotel } from './index.js';
+console.log(hotel.checkInGuest('Anna', 'Cat', 70));
+console.log(hotel);
+console.log(hotel.getLength());
+console.log(hotel.checkInGuest('Bogdan', 'Ram', 40));
+console.log(hotel);
+console.log(hotel.getLength());
+console.log(hotel.getActualFreePlace());
+console.log(hotel.guests);
+console.log(hotel.checkInGuest('Sergiy', 'Ul', 10));
+console.log(hotel);
+console.log(hotel.checkInGuest('Anton', 'px', 80));
+console.log(hotel.checkInGuest('Inga', 'miss', 90));
+console.log(hotel);
+console.log(hotel.checkInGuest('Inessa', 'cv', 100));
+console.log(hotel.getLength());
+console.log(hotel.getActualFreePlace());
